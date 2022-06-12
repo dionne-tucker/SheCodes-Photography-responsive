@@ -1,7 +1,79 @@
 body {
   font-family: "Roboto", sans-serif;
+  text-align: center;
+  background-color: #1b1b1b;
+  color: white;
 }
 
-hero a {
+header {
+  background-color: #202020;
+  color: white;
+  height: 118px;
+  padding: 0 140px;
+  position: fixed;
+  width: 100%;
+}
+
+header img {
+  float: left;
+  padding-top: 48px;
+}
+
+nav {
+  float: right;
+  padding-top: 51px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  margin-left: 30px;
+}
+
+.hero {
+  background-image: url("/images/bg.png");
+  background-size: cover;
+  height: 900px;
+  padding-top: 276px;
+}
+
+.hero h1 {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.hero h2 {
+  font-size: 72px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.hero p {
+  font-size: 18px;
+  max-width: 460px;
+  margin: 0 auto;
+  margin-bottom: 48px;
+}
+
+.hero a {
   font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  background-color: white;
+  color: #272142;
+  text-decoration: none;
+  padding: 18px 40px;
+  border-radius: 50px;
+}
+
+.container {
+  padding: 100px 0;
+}
+
+.container img {
+  max-width: 100%;
 }
