@@ -77,3 +77,10 @@ nav a {
 .main-content-row {
   margin-bottom: 40px;
 }
+
+footer {
+  background-color: #282323;
+  padding: 0 140px;
+  display: flex;
+  justify-content: space-between;
+}
