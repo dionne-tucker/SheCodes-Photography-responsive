@@ -82,7 +82,12 @@ nav a {
 footer {
   background-color: #282323;
   padding: 0 140px;
-  height: 100px;
+  height: 150px;
+}
+
+footer .social {
+  width: 200px;
+  margin: 0 auto;
 }
 
 footer p {
