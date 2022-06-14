@@ -5,18 +5,11 @@ body {
   color: white;
 }
 
-header {
-  background-color: #202020;
-  color: white;
-  height: 118px;
-  padding: 0 140px;
-  position: fixed;
+.navbar {
   width: 100%;
-}
-
-header img {
-  float: left;
-  padding-top: 48px;
+  padding: 0 140px;
+  height: 118px;
+  background-color: #202020;
 }
 
 nav {
@@ -24,10 +17,18 @@ nav {
   padding-top: 51px;
 }
 
-nav a {
-  text-decoration: none;
+.navbar-nav a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
   color: white;
   margin-left: 30px;
+}
+
+
+.navbar-toggler-icon {
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
 }
 
 .hero {
