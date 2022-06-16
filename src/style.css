@@ -7,14 +7,9 @@ body {
 
 .navbar {
   width: 100%;
-  padding: 0 140px;
+  padding: 0 80px;
   height: 118px;
   background-color: #202020;
-}
-
-nav {
-  float: right;
-  padding-top: 51px;
 }
 
 .navbar-nav a {
@@ -22,12 +17,6 @@ nav {
   font-weight: 500;
   color: white;
   margin-left: 30px;
-}
-
-.navbar-toggler-icon {
-  background-color: rgb(255, 255, 255, 0.9);
-  border-radius: 5px;
-  padding: 20px;
 }
 
 .hero {
